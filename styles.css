@@ -41,6 +41,7 @@ ul {
     font-size:15px;
     color:black;
     font-family:Euphemia;
+    text-align: center;
  
     }
  
@@ -49,3 +50,8 @@ ul {
     font-size:15px;
     font-family:Euphemia;
     color:black;
+    text-align: right;
+
+    p {
+        display: inline-block;
+        }
