@@ -1,0 +1,51 @@
+.btn-2 {
+ margin: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   }
+   
+   li {
+    float: left;
+   }
+   
+   li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 12px;
+    text-decoration: none;
+   }
+   
+   /* Change the link color to #111 (black) on hover */
+   li a:hover {
+    background-color: #111;
+   }
+   #footer_box{
+    border-top:2px solid #009933;
+    padding-bottom:75px;
+    background-color:#3366CC;
+    }
+    #footer_text_left{
+    font-size:15px;
+    color:black;
+    font-family:Euphemia;
+ 
+ 
+    }
+    #footer_text_middle{
+    font-size:15px;
+    color:black;
+    font-family:Euphemia;
+ 
+    }
+ 
+    #footer_text_right{
+ 
+    font-size:15px;
+    font-family:Euphemia;
+    color:black;
