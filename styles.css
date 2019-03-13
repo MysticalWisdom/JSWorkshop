@@ -30,27 +30,6 @@ ul {
     padding-bottom:75px;
     background-color:#3366CC;
     }
-    #footer_text_left{
-    font-size:15px;
-    color:black;
-    font-family:Euphemia;
- 
- 
-    }
-    #footer_text_middle{
-    font-size:15px;
-    color:black;
-    font-family:Euphemia;
-    text-align: center;
- 
-    }
- 
-    #footer_text_right{
- 
-    font-size:15px;
-    font-family:Euphemia;
-    color:black;
-    text-align: right;
 
     p {
         display: inline-block;
