@@ -10,37 +10,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   
-  <body class="bg-primary text-white">
+  <body id="body" class="bgdw-pwdwrimary textdw-white">
         <ul id="nav">
                 <li><a class="active" href="#home">Home</a></li>
                 <li><a href="#news">About</a></li>
                 <li><a href="#contact">Speakers</a></li>
                 <li><a href="#about">Schedule</a></li>
                </ul>
-               
+    <div id="header">           
     <div class="container text-center">
-      <h1 class="display-1 mt-5">JS Workshop</h1>
-      <p class="lead mb-5">Coming Soon, a workshop for all Code School students!</p>
-      <div class="btn-2" >
-          <button type="button" class="btn btn-secondary btn-lg">Register</button>
+      <h1 class="display-1 mtww-5">Full Stack Conf</h1>
+      <p class="lead mb-5">A One-day Conference About all Things JavaScript!</p>
+      <div>
+          <button class="btn-2"type="button" >Register</button>
           
-          <button type="button" class="btn btn-dark btn-lg">Speakers</button>
+          <button class="btn-2"  type="button" >Speakers</button>
           </div>
+    </div>
     </div>   
-    <div class="container">
+    <div id="break"class="container">
   <div class="row">
     <div class="col-sm">
-      <h1>Expert</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti cumque sequi natus consequuntur vel, veniam a aspernatur beatae accusamus sint aliquid praesentium eaque, cupiditate eos delectus eligendi maxime reiciendis officiis.</p>
+      <h2>Expert Speakers</h2>
+      <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
+      <p>Want to meet the international JavaScript community and share skills with some of the world's top experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p>
+      <p>Full Stack Conf is commited to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
     </div>
     <div class="col-sm">
-        <h1>Two</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero dolores eius qui dicta maxime sit, quasi praesentium sapiente minima vero, odit aperiam delectus iure asperiores alias quod. Provident, tempore nobis?</p>
+        <h2>About Full Stack Conf</h2>
+        <p>The beautiful city of Portland, Oregon will be the host city for Full Stack Conf!</p>
+        <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
     </div>
     <div class="col-sm">
-      <h1>What You'll Learn</h1>
+      <h2>What You'll Learn</h2>
       <ul id="list">
-          <li>as</li>
+          <li id="first">as</li>
           <li>was</li>
           <li>was</li>
           <li>was</li>
@@ -52,7 +56,7 @@
 </div>
 <!--First Row Copy and Pastable for Larger Datasets-->
     <div id="gallery" class="container">
-      <h1>Speakers</h1>
+      <h1 id="pad">Speakers</h1>
 <div class="row">
      <div class="col-sm">
       <img src="Speakers/prof.png" alt="Picture of ">
@@ -93,7 +97,7 @@
        </div>  
 <!-- Schedule Segment-->
 <div>       
-        <h1>Schedule</h1>
+        <h1 id="pad">Schedule</h1>
        <ul id="list">
          <li>
             <div class="left">
@@ -156,18 +160,21 @@
        </ul>
   </div>
 <!-- Button and footer -->
-        <div>
-          make a button 
+        <div id="flow" >
+          <button id="bttn" class="btn-2">Don't Miss Out, Register Now</button>
         </div>
-        <div class="container">
+        <div class="break"></div>
+        <div id="prefoot" class="container">
           <div class="row">
             <div class="col-sm">
               <h4> About </h4>
-              <p>Can a verified poison trash the prevalent array? An alphabet dresses opposite a physicist! The motorway commissions the booked tourist after the stuff. The supposed catholic fiddles. Next to my stunt strikes the removed sunrise.</p>
+              <p>Example Company brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
               </div>
            <div class="col-sm">
                   
                     <h4>Stay up-to-date on Full Stack Conf</h4>
+                    <input type="text" name="Email" placeholder="Email">
+                    <button class="button button3">Sign up</button>
                     
               </div>
         </div>
@@ -175,6 +182,21 @@
       
 </body>
 <footer>
+  <ul id="footnav">
+    <li>Community</li>
+    <li>Tracks</li>
+    <li >
+      <div class="dropup">
+        <div class="dropbtn">Dropup</div>
+        <div class="dropup-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </li>
+    <li class="right">&copy;2017 Full Stack Conf</li>
+  </ul>
 
     </footer>
 
